@@ -1,0 +1,5 @@
+nodejs-app (6.9.0) stable; urgency=medium
+
+  * Added support for nodejs app on readynas
+
+ -- ReadyNAS Dev <devreadynas@netgear.com>  Tue, 10 Jan 2017 12:37:30 -0700

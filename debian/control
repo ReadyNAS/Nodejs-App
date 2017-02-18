@@ -1,0 +1,15 @@
+Source: nodejs-app
+Section: contrib
+Priority: extra
+Maintainer: ReadyNAS Dev <devreadynas@netgear.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.8
+Homepage: https://nodejs.org/
+
+Package: nodejs-app
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, readynasos  (>= 6.7.0~T158), nodejs (>=6.9.0)
+Conflicts: nodejs (>=7.0.0)
+Description: NodeJS App for ReadyNAS
+XB-Repo: deb https://deb.nodesource.com/node_6.x jessie main
+XB-Repo-Key-Url: https://deb.nodesource.com/gpgkey/nodesource.gpg.key
