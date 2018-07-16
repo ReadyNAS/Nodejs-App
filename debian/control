@@ -8,7 +8,7 @@ Homepage: https://nodejs.org/
 
 Package: nodejs-app
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, readynasos  (>= 6.7.0~T158), nodejs (>=6.9.0)
+Depends: ${shlibs:Depends}, ${misc:Depends}, readynasos  (>= 6.7.0), nodejs (>=6.9.0)
 Conflicts: nodejs (>=7.0.0)
 Description: NodeJS App for ReadyNAS
 XB-Repo: deb https://deb.nodesource.com/node_6.x jessie main
